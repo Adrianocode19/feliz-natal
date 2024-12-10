@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 24px;
+  gap: 24px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.timer_title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.timer {
+  color: #cd3c32;
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    gap: 40px;
+  }
+
+  .text {
+    gap: 40px;
+  }
+
+  .timer_title {
+    font-size: 40px;
+  }
+
+  .timer {
+    font-size: 64px;
+  }
+
+  .container img {
+    width: 478px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .text {
+    gap: 24px;
+    width: 477px;
+    text-align: center;
+  }
+}

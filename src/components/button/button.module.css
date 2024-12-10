@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container button {
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #cd3c32;
+  color: white;
+  padding: 16px 32px;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container button {
+    font-size: 16px;
+    padding: 14px 32px;
+    max-width: 238px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
