@@ -9,7 +9,7 @@ const Ilustration = () => {
       <img src={ilustration} alt="" />
       <div className={style.container_description}>
         <h4 className={style.title}>
-          Conectando generosidade ao redor do mundos
+          Conectando generosidade ao redor do mundo
         </h4>
         <Paragraph>
           Celebre a magia do Natal de uma maneira especial! Descubra a
